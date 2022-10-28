@@ -5,50 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emmanuel Norambuena</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <h1>Hoja de Vida Personal</h1>
+    <div class="container">
+        <div class="banner">
+            <div class="center" id="photo"><img src="media/photo.jpg"/></div>
+            <div class="subtitle">
+                <h2>Habilidades</h2>
+            </div>
+            <div class="centered-container">
+                <table>
+                    <td>Python</td>
+                    <td>Javascript</td>
+                    <td>React</td>
+                    <td>Firebase</td>
+                </table>
+            </div>
+            <div class="subtitle">
+                <h2>Intereses</h2>
+            </div>
+            <div class="centered-container">
+                <table>
+                    <td>Aplicaciones móviles</td>
+                    <td>SCRUM</td>
+                    <td>Cloud Computing</td>
+                    <td>Continuous Integration</td>
+                </table>
+            </div>
 
-    <h2>Información general</h2>
-    <h3>Nombre y apellido</h3>
-    Emmanuel Norambuena
-    <h3>Email</h3>
-    eanorambuena@uc.cl
-    <h3>Teléfono</h3>
-    +569 5555 5555
-    <h3>Ubicación actual</h3>
-    Santiago, Chile
-    <h3>Links a GitHub y a LinkedIn</h3>
-    <a href = "https://github.com/eanorambuena">Github</a><br/>
-    <a href = "https://www.linkedin.com/in/eanorambuena">LinkedIn</a>
-
-    <h2>Experiencia</h2>
-    <ul>
-        <li>Evernote | Frontend Developer</li>
-        <li>Platanus | Trainee</li>
-    </ul>
-
-    <h2>Habilidades técnicas y tecnologías</h2>
-    <table>
-        <td>Python</td>
-        <td>Javascript</td>
-        <td>React</td>
-        <td>Firebase</td>
-    </table>
-
-    <h2>Intereses</h2>
-    <table>
-        <td>Aplicaciones móviles</td>
-        <td>SCRUM</td>
-        <td>Cloud Computing</td>
-        <td>Continuous Integration</td>
-    </table>
-    <br/>
-    <br/>
-    Email:<br/>
-    <input /><br/>
-    Mensaje:<br/>
-    <textarea></textarea><br/>
-    <button>Contactar</button>
+            <div class="subtitle">
+                <h2>Contacto</h2>
+            </div>
+            <div class="center">
+                <section class="form">
+                    Email:<br/>
+                    <input /><br/>
+                    Mensaje:<br/>
+                    <textarea></textarea>
+                    <div class="centered-container"><button>Contactar</button></div>
+                </section>
+            </div>
+        </div>
+        <div class="center">
+            <div class="main">
+                <h1>Emmanuel Norambuena</h1>
+                <div class="subtitle">
+                    <h2>Información personal</h2>
+                </div>
+                <section class="info">
+                    <div class="item">
+                        <i class="large material-icons">large mail</i>
+                        eanorambuena@uc.cl
+                    </div><br/>
+                    <div class="item">
+                        <i class="large material-icons">large call</i>
+                        +569 5555 5555
+                    </div><br/>
+                    <div class="item">
+                        <i class="large material-icons">large location_on</i>
+                        Santiago, Chile
+                    </div><br/>
+                    <div class="item">
+                        <i class="fa fa-linkedin fa-fw fa-lg"></i>
+                        <a href = "https://www.linkedin.com/in/eanorambuena">LinkedIn</a>
+                    </div><br/>
+                    <div class="item">
+                        <i class="fa fa-github fa-fw fa-lg"></i>
+                        <a href = "https://github.com/eanorambuena">Github</a><br/>
+                    </div>
+                </section>
+                <div class="subtitle">
+                    <h2>Experiencia</h2>
+                </div>
+                <ul>
+                    <li>Evernote | Frontend Developer</li>
+                    <li>Platanus | Trainee</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,141 @@
+body {
+    background-color: seashell;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 0;
+}
+
+.banner {
+    padding: 20px;
+    color: azure;
+    height: 150vh;
+    width: 400px;
+}
+
+.center {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.main {
+    padding: 20px;
+    width: 500px;
+}
+
+.subtitle, .banner{
+    background-color: rgb(20, 120, 120);
+}
+
+h1 {
+    color: rgb(20, 120, 120);
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.subtitle {
+    height: 2rem;
+    padding: 10px 5px;
+    border-radius: 10px;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+li, a, .info{
+    color: darkslategrey;
+}
+
+li {
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+.info {
+    display: grid;
+    grid-auto-rows: 20px;
+    margin: 20px;
+}
+
+.item {
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+
+.fa {
+    margin-left: 125px;
+}
+
+.banner, .main .subtitle{
+    box-shadow: 5px 5px 3px rgb(10, 110, 110);
+}
+
+img {
+    height: 200px;
+    width: auto;
+    border-radius: 100px;
+}
+
+#photo {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form {
+    padding-left: 160px;
+    margin-top: 0px;
+}
+
+.centered-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: azure;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 0;
+    padding: 3px;
+    font-weight: 200;
+    box-shadow: 1px 1px 1px darkslategrey;
+}
+
+button:active{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    box-shadow: -5px -5px 5px darkslategrey;
+}
+
+table {
+    text-align: center;
+    vertical-align: top;
+    table-layout: auto;
+    border: 1;
+    margin: 20px;
+}
+
+td{
+    text-align: center;
+    column-width: 100px;
+}
